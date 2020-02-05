@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.fachada{
+    width: 400px;
+    height: 423px;
+    background-color: rgb(115, 96, 199);
+    margin: 100px auto;
+}
+.ventana{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 108, 177);
+}
+.puerta{
+    height: 223px;
+    width: 125px;
+    background-color: aquamarine;
+    margin: 100px;
+    margin-left: 259px;
+}
+.techo::after{
+    content: '';
+    border-top: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid black;
+    border-left: 200px solid transparent;
+    bottom: 716px;
+    position: relative;
+}
+.chimenea{
+    width: 80px;
+    height: 300px;
+    background: rosybrown;
+}
